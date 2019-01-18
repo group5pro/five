@@ -1,7 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="five-web-ui:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c93fdb-894d-4292-8e31-fb3b057ef46c" name="Default Changelist" comment="" />
+    <list default="true" id="40c93fdb-894d-4292-8e31-fb3b057ef46c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/java/com/group5/five/ui/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/meanmenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/nivo-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/plugins/venobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/shortcode/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/shortcode/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/shortcode/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/shortcode/shortcodes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/shortcode/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-ExtraBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Montserrat-UltraLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Heavy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Heavy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Oswald-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Xpressive-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/Xpressive.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/fonts/montserrat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/icon/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/about/signature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/banner/effect-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/best-seller/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/best-seller/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/best-seller/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/best-seller/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/blog/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/blog/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/brand/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/brand/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/brand/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/brand/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/brand/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cart/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cart/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cart/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/client/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/client/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/client/qourt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/contact/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/contact/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/contact/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cuntdown/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cuntdown/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/cuntdown/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/footer-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/footer-top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/icon/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/tweet/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/footer/tweet/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/header-menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/language/1-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/language/2-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/language/3-min.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/header/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/newsletter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/bottom-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/bottom-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/top-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer-banner/top-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/offer/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/product/arrival/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/section-border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/up-to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/venobox/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/venobox/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/venobox/preload-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/venobox/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/why-us/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/why-us/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/why-us/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/images/why-us/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-ui/src/main/webapp/static/js/vendor/modernizr-2.8.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/five-web-api/target/" />
@@ -19,88 +177,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-api/src/main/resources/five.properties">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-druid.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            <state relative-caret-position="37120">
+              <caret line="1292" column="36" selection-start-line="1292" selection-start-column="36" selection-end-line="1292" selection-end-column="36" />
+              <folding>
+                <element signature="e#112167#112172#0#HTML" expanded="true" />
+                <element signature="e#114115#114120#0#HTML" expanded="true" />
+                <element signature="e#116063#116068#0#HTML" expanded="true" />
+                <element signature="e#118011#118016#0#HTML" expanded="true" />
+                <element signature="e#135178#135184#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/five-commons/src/main/java/com/group5/five/commons/validator/BeanValidator.java">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/java/com/group5/five/ui/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="319">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,8 +246,17 @@
         <option value="$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/five.properties" />
         <option value="$PROJECT_DIR$/five-commons/src/main/java/com/group5/five/commons/validator/BeanValidator.java" />
+        <option value="$PROJECT_DIR$/five-web-ui/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/five-web-ui/src/main/java/com/group5/five/ui/controller/IndexController.java" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -141,12 +271,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-16" />
     <option name="y" value="33" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -159,6 +290,75 @@
               <item name="five" type="b2602c69:ProjectViewProjectNode" />
               <item name="five" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-web-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +370,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547790440016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547796787551" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,12 +380,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.group5.five.ui.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaEE\IDEA项目\任务\团队项目\five\five-web-ui\src\main\webapp\static\css" />
+      <recent name="E:\JavaEE\IDEA项目\任务\团队项目\five\five-web-ui\src\main\webapp\static" />
       <recent name="C:\Users\Administrator\IdeaProjects\five\five-web-ui\src\main" />
       <recent name="C:\Users\Administrator\IdeaProjects\five\five-web-api\src\main" />
       <recent name="C:\Users\Administrator\IdeaProjects\five\five-web-admin\src\main" />
-      <recent name="C:\Users\Administrator\IdeaProjects\five\five-commons\src\main\java\com\group5\five\commons" />
-      <recent name="C:\Users\Administrator\IdeaProjects\five\five-web-ui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,6 +403,83 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="five" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8077/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="five-web-ui:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_five" />
+        <option name="HTTP_PORT" value="8077" />
+        <option name="JNDI_PORT" value="1097" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59632" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="five-web-ui:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -212,17 +492,18 @@
       <updated>1547789009995</updated>
       <workItem from="1547789014236" duration="1518000" />
       <workItem from="1547792601050" duration="620000" />
+      <workItem from="1547795837624" duration="948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2138000" />
+    <option name="totallyTimeSpent" value="3086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -230,9 +511,11 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,6 +704,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/webapp/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37120">
+          <caret line="1292" column="36" selection-start-line="1292" selection-start-column="36" selection-end-line="1292" selection-end-column="36" />
+          <folding>
+            <element signature="e#112167#112172#0#HTML" expanded="true" />
+            <element signature="e#114115#114120#0#HTML" expanded="true" />
+            <element signature="e#116063#116068#0#HTML" expanded="true" />
+            <element signature="e#118011#118016#0#HTML" expanded="true" />
+            <element signature="e#135178#135184#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/java/com/group5/five/ui/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
