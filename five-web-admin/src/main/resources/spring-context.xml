@@ -12,7 +12,7 @@
 
     <!-- 配置 Bean Validator 定义 -->
     <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
-    <bean id="beanValidator" class="com.group5.five.commons.validator.BeanValidator">
+    <bean id="beanValidator" class="com.group5.five.commons.validator.utils.BeanValidator">
         <property name="validator" ref="validator"></property>
     </bean>
 
