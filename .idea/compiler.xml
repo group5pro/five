@@ -13,5 +13,14 @@
         <module name="five-web-ui" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="five" target="1.5" />
+      <module name="five-commons" target="1.8" />
+      <module name="five-dependencies" target="1.8" />
+      <module name="five-domain" target="1.8" />
+      <module name="five-web-admin" target="1.8" />
+      <module name="five-web-api" target="1.8" />
+      <module name="five-web-ui" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
