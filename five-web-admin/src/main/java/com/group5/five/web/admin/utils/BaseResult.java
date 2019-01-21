@@ -5,11 +5,12 @@ import lombok.Data;
 @Data
 public class BaseResult {
 
+    //状态码
     private int status;
-    //错误信息或者正确信息
+    //返回的提示信息
     private String message;
+    //返回的数据
     private Object data;
-
 
 
     public static final int STATUS_SUCCESS = 200;

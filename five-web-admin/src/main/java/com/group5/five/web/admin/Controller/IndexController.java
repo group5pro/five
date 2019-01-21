@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class IndexController {
+    //get请求到首页
     @RequestMapping(value = "index", method = RequestMethod.GET)
     public String index(){
         return "index";

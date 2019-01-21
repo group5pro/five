@@ -15,12 +15,16 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
     @Autowired
     TbUserService tbUserService;
+
+    //get请求到登录
     @RequestMapping(value = "login", method = RequestMethod.GET)
     public String login(){
         return "login";
     }
 
-
+    //进行登录验证返回用户登录时的状态信息
+    //登录成功返回user来到首页
+    //登录失败返回BaseResult回到登录页
     @RequestMapping(value = "login", method = RequestMethod.POST)
     public String login(TbUser tbUser, HttpServletRequest request, Model model){
         BaseResult result = tbUserService.login(tbUser);
@@ -28,7 +32,7 @@ public class LoginController {
             request.getSession().setAttribute("user",result.getData());
             return "redirect:/index";
         }else{
-            model.addAttribute("BaseResult",result.getMessage());
+            model.addAttribute("BaseResult",result);
             return "login";
         }
     }
