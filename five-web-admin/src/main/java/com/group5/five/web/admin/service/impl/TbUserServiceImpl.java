@@ -1,6 +1,6 @@
 package com.group5.five.web.admin.service.impl;
 
-import com.group5.five.commons.validator.BeanValidator;
+import com.group5.five.commons.validator.utils.BeanValidator;
 import com.group5.five.web.admin.dao.TbUserDao;
 import com.group5.five.web.admin.service.TbUserService;
 import com.group5.five.web.admin.utils.BaseResult;

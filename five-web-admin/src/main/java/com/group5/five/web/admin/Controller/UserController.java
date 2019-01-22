@@ -76,7 +76,7 @@ public class UserController {
      * @return
      */
     @ResponseBody
-    @RequestMapping(value = "deletemulti", method = RequestMethod.GET)
+    @RequestMapping(value = "deletemulti", method = RequestMethod.POST)
     public BaseResult deletemulti(String ids) {
         BaseResult baseResult = service.deleteTbUsers(ids);
         return baseResult;

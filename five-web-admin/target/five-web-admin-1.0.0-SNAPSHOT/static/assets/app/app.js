@@ -66,7 +66,7 @@ var App = function(){
         var _idArray = new Array();
         _idArray.push(id);
         $.ajax({
-            url:"/user/deleteMuti",
+            url:"/user/deletemulti",
             type:"post",
             data:{"ids":_idArray.toString()},
             dataType:"json",

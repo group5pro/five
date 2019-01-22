@@ -7,28 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c93fdb-894d-4292-8e31-fb3b057ef46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/js/datetime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-commons/src/main/java/com/group5/five/commons/validator/BeanValidator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_category.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/app/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,60 +42,61 @@
     <session id="1371683246">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="8" />
+          <entry key="class" value="11" />
           <entry key="css" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="95" />
+          <entry key="java" value="103" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="7" />
-          <entry key="jsp" value="43" />
+          <entry key="js" value="8" />
+          <entry key="jsp" value="51" />
           <entry key="png" value="13" />
-          <entry key="properties" value="9" />
+          <entry key="properties" value="12" />
           <entry key="rnc" value="2" />
           <entry key="ts" value="1" />
           <entry key="xhtml" value="1" />
-          <entry key="xml" value="44" />
+          <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
+          <entry key="CLASS" value="11" />
           <entry key="CSS" value="2" />
           <entry key="Image" value="14" />
-          <entry key="JAVA" value="95" />
-          <entry key="JSP" value="43" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JAVA" value="103" />
+          <entry key="JSP" value="51" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="9" />
+          <entry key="Properties" value="12" />
           <entry key="RNG Compact" value="2" />
           <entry key="TypeScript" value="1" />
           <entry key="XHTML" value="1" />
-          <entry key="XML" value="42" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1434" />
+          <entry key="java" value="1436" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="1117" />
+          <entry key="jsp" value="1189" />
           <entry key="properties" value="2" />
           <entry key="xml" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1434" />
-          <entry key="JSP" value="1117" />
+          <entry key="JAVA" value="1436" />
+          <entry key="JSP" value="1189" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="2" />
@@ -114,72 +109,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductCategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,57 +123,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="186">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3454#3455#0" expanded="true" />
+                <element signature="e#3495#3496#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1623#1645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1318#1319#0" expanded="true" />
-                <element signature="e#2891#2892#0" expanded="true" />
-                <element signature="e#2927#2928#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-druid.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -261,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-context-mybatis.xml" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml" />
@@ -284,7 +225,6 @@
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Product.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryService.java" />
@@ -299,19 +239,21 @@
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -342,8 +284,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="33" />
+    <option name="x" value="-6" />
     <option name="width" value="1378" />
     <option name="height" value="780" />
   </component>
@@ -355,13 +296,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="five" type="b2602c69:ProjectViewProjectNode" />
               <item name="five" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="five-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="five" type="b2602c69:ProjectViewProjectNode" />
@@ -557,14 +532,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548141259212" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xingke" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548159588009" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -573,23 +549,23 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.group5.five.web.admin.dao" />
-      <recent name="com.group5.five.web.admin.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\WEB-INF\views" />
       <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\js" />
       <recent name="D:\Git本地仓库\five\five-web-admin\src\main\java\com\group5\five\web\admin\utils" />
       <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\plugins" />
       <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets" />
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.group5.five.web.domain.entity" />
       <recent name="com.group5.five.web.admin.entity" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\img" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.group5.five.web.admin.dao" />
+      <recent name="com.group5.five.web.admin.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -606,7 +582,8 @@
   </component>
   <component name="RunManager">
     <configuration name="five-web-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="five-web-admin:war exploded">
           <settings>
@@ -730,11 +707,12 @@
       <workItem from="1548037560658" duration="149000" />
       <workItem from="1548037802665" duration="35879000" />
       <workItem from="1548119596228" duration="7111000" />
+      <workItem from="1548141666270" duration="5891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51724000" />
+    <option name="totallyTimeSpent" value="57615000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -761,7 +739,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.18555008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.82101804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" />
@@ -796,77 +774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-druid.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/reflection/MetaObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryService.java" />
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/entity/Category.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="531" selection-start-line="531" selection-end-line="531" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="493" selection-start-line="493" selection-end-line="493" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -878,13 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
@@ -905,43 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -949,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,79 +828,13 @@
     <entry file="file://$PROJECT_DIR$/../xingke/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbArtcleCollect.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/js/datetime.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#832#839#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1047,22 +845,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,19 +872,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="437">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1096,41 +882,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="199">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-            <element signature="e#2891#2892#0" expanded="true" />
-            <element signature="e#2927#2928#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1147,12 +954,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="223">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/annotation/ModelFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.17.RELEASE/spring-web-4.3.17.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-commons/src/main/java/com/group5/five/commons/validator/utils/BeanValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#2891#2892#0" expanded="true" />
+            <element signature="e#2927#2928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-commons/src/main/java/com/group5/five/commons/validator/BeanValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="31" column="108" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3454#3455#0" expanded="true" />
+            <element signature="e#3495#3496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-druid.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="e#1623#1645#0" expanded="true" />
           </folding>
         </state>
       </provider>

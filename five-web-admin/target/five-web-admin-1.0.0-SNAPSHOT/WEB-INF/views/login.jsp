@@ -31,17 +31,20 @@
                 <div class="left">
                     <div class="content">
                         <div class="header">
-                            <div class="logo text-center"><img src="/static/assets/img/logo-dark.png" alt="Klorofil Logo"></div>
+                            <div class="logo text-center"><img src="/static/assets/img/logo-dark.png"
+                                                               alt="Klorofil Logo"></div>
                             <p class="lead">登录到你的账号</p>
                         </div>
                         <form class="form-auth-small" action="/login" method="post">
                             <div class="form-group">
                                 <label for="signin-email" class="control-label sr-only">邮箱</label>
-                                <input type="email" name="email" class="form-control" id="signin-email"  placeholder="邮箱">
+                                <input type="email" name="email" class="form-control" id="signin-email"
+                                       placeholder="邮箱">
                             </div>
                             <div class="form-group">
                                 <label for="signin-password" class="control-label sr-only">密码</label>
-                                <input type="password" name="password" class="form-control" id="signin-password"  placeholder="密码">
+                                <input type="password" name="password" class="form-control" id="signin-password"
+                                       placeholder="密码">
                             </div>
                             <div class="form-group clearfix">
                                 <label class="fancy-checkbox element-left">

@@ -10,7 +10,7 @@
                     <div id="user" class="collapse ">
                         <ul class="nav">
                             <li><a href="/user/list" class="">用户列表</a></li>
-                            <li><a href="/user/insert" class="">新增用户</a></li>
+                            <li><a href="/user/form" class="">新增用户</a></li>
                         </ul>
                     </div>
                 </li>

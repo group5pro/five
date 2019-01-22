@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:include page="../include/header.jsp"></jsp:include>
 <jsp:include page="../include/left.jsp"></jsp:include>
 
@@ -28,9 +29,8 @@
                             <a type="button" href="/user/form" class="btn btn-sm btn-default"><i
                                     class="fa fa-plus"></i> 新建</a>&nbsp;&nbsp;
                             <a type="button" onclick="App.deleteMuti('/user/deleteMuti')"
-                               class="btn btn-sm btn-default"><i
-                                    class="fa fa-trash"></i> 删除</a>&nbsp;&nbsp;
-                            
+                               class="btn btn-sm btn-default"><i class="fa fa-trash"></i> 删除</a>&nbsp;&nbsp;
+
                         </div>
 
                     </div>
@@ -38,22 +38,22 @@
                     <div style="height: 20px;width: auto"></div>
 
                     <div class="box-body">
-                        <div class="col-sm-3 form-group">
+                        <div class="col-sm-4 form-group">
                             <label for="username" class="col-sm-3 control-label">姓名</label>
-                            <div class="col-sm-8">
+                            <div class="col-sm-6">
                                 <input id="username" placeholder="姓名"/>
                             </div>
 
                         </div>
                         <div class="col-sm-3 form-group">
                             <label for="phone" class="col-sm-3 control-label">电话</label>
-                            <div class="col-sm-8">
+                            <div class="col-sm-6">
                                 <input id="phone" placeholder="电话"/>
                             </div>
                         </div>
                         <div class="col-sm-4 form-group">
                             <label for="email" class="col-sm-3 control-label">邮箱</label>
-                            <div class="col-sm-8">
+                            <div class="col-sm-6">
                                 <input id="email" placeholder="邮箱"/>
                             </div>
                         </div>
@@ -83,6 +83,7 @@
                         <th>邮箱</th>
                         <th>手机号码</th>
                         <th>更新时间</th>
+                        <th>修改时间</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -122,7 +123,27 @@
 
     </div>
 </div>
-
+<!--modal-->
+<div class="modal fade" id="modal-user">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="modal-title">用户详情</h4>
+            </div>
+            <div class="modal-body">
+                <p id="modal-detail"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="modalClick()"  data-dismiss="modal" class="btn btn-primary">确定</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!--/.modal-->
 
 <jsp:include page="../include/jsfooter.jsp"></jsp:include>
 </body>
@@ -144,6 +165,11 @@
         {
             "data": function (row, type, val, meta) {
                 return DateTime.format(row.created, "yyyy-MM-dd HH:mm:ss");
+            }
+        },
+        {
+            "data": function (row, type, val, meta) {
+                return DateTime.format(row.updated, "yyyy-MM-dd HH:mm:ss");
             }
         },
         {

@@ -37,7 +37,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="brand" style="padding-top: 20px;">
-            <a href="index"><img style="height: 30px; width: 100px" src="/static/assets/img/logo.png" alt="珐依娪" class="img-responsive logo"></a>
+            <a href="index"><img style="height: 30px; width: 100px" src="/static/assets/img/logo.png" alt="珐依娪"
+                                 class="img-responsive logo"></a>
         </div>
         <div class="container-fluid">
             <div class="navbar-btn">
@@ -61,7 +62,9 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="lnr lnr-question-circle"></i> <span>帮助</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                class="lnr lnr-question-circle"></i> <span>帮助</span> <i
+                                class="icon-submenu lnr lnr-chevron-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">基本使用</a></li>
                             <li><a href="#">用户管理</a></li>
@@ -69,7 +72,9 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="/static/assets/img/user.png" class="img-circle" alt="Avatar"> <span>${user.username}</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
+                                src="/static/assets/img/user.png" class="img-circle" alt="Avatar">
+                            <span>${user.username}</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#"><i class="lnr lnr-user"></i> <span>我的信息</span></a></li>
                             <li><a href="#"><i class="lnr lnr-cog"></i> <span>设置</span></a></li>
