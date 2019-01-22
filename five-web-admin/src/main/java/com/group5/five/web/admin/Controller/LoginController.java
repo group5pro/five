@@ -1,8 +1,8 @@
 package com.group5.five.web.admin.Controller;
 
-import com.group5.five.web.admin.TbUser;
 import com.group5.five.web.admin.service.TbUserService;
 import com.group5.five.web.admin.utils.BaseResult;
+import com.group5.five.web.domain.entity.TbUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,7 +17,7 @@ public class LoginController {
     TbUserService tbUserService;
 
     //get请求到登录
-    @RequestMapping(value = "login", method = RequestMethod.GET)
+    @RequestMapping(value = {"","login"}, method = RequestMethod.GET)
     public String login(){
         return "login";
     }
@@ -36,4 +36,18 @@ public class LoginController {
             return "login";
         }
     }
+
+
+    @RequestMapping(value = "logout", method = RequestMethod.GET)
+    public String logout(HttpServletRequest request){
+        request.getSession().invalidate();
+        return "login";
+    }
+
+    //get请求到首页
+    @RequestMapping(value = "index", method = RequestMethod.GET)
+    public String index(){
+        return "index";
+    }
+
 }

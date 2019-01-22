@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.group5.five.web.admin.dao.ProductDao">
+    <sql id="selectContent">
+     product_id,
+     product_name,
+     product_picture,
+     origin_price,
+     discount_price,
+     comment_num,
+     sales_num
+    </sql>
+
+    <sql id="TbContentJoins">
+         LEFT JOIN category AS b ON a.category_id = b.category_id
+    </sql>
+
+
+
+
+    <select id="count" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM product AS a
+        <where>
+            <if test="productName != null and productName !=''">
+                AND a.product_name LIKE CONCAT ('%',#{productName},'%')
+            </if>
+            <if test="originPrice != null and originPrice !=''">
+                AND a.origin_price LIKE CONCAT ('%',#{originPrice},'%')
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectByPage" resultType="Product" parameterType="java.util.Map">
+        SELECT
+        <include refid="selectContent"/>
+        FROM
+        product
+        <where>
+            <if test="product.productName != null and product.productName != ''">
+                AND product_name LIKE CONCAT ('%',#{product.productName},'%')
+            </if>
+            <if test="product.originPrice != null and product.originPrice != ''">
+                AND origin_price LIKE CONCAT ('%',#{product.originPrice},'%')
+            </if>
+        </where>
+        LIMIT #{start},#{length}
+    </select>
+
+
+</mapper>
