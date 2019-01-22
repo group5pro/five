@@ -15,21 +15,19 @@ public class ProductController {
     @Autowired
     ProductService service;
 
-    @RequestMapping(value = "list",method = RequestMethod.GET)
-    public String list(){
+    @RequestMapping(value = "list", method = RequestMethod.GET)
+    public String list() {
         return "product_list";
     }
 
 
     @ResponseBody
-    @RequestMapping(value="page",method=RequestMethod.GET)
-    public PageInfo<Product> page(int draw, int start, int length, Product product){
+    @RequestMapping(value = "page", method = RequestMethod.GET)
+    public PageInfo<Product> page(int draw, int start, int length, Product product) {
         System.out.println(product);
-        PageInfo<Product> pageInfo =  service.page(draw,start,length,product);
+        PageInfo<Product> pageInfo = service.page(draw, start, length, product);
         return pageInfo;
     }
-
-
 
 
 }

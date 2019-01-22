@@ -22,10 +22,10 @@ public class ProductServiceImpl implements ProductService {
         pageInfo.setDraw(draw);
         pageInfo.setRecordsTotal(count);
         pageInfo.setRecordsFiltered(count);
-        Map<String,Object> map = new HashMap<>();
-        map.put("start",start);
-        map.put("length",length);
-        map.put("product",product);
+        Map<String, Object> map = new HashMap<>();
+        map.put("start", start);
+        map.put("length", length);
+        map.put("product", product);
         pageInfo.setData(dao.selectByPage(map));
         return pageInfo;
     }

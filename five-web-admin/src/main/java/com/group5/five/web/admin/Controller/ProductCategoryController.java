@@ -17,23 +17,23 @@ public class ProductCategoryController {
     @Autowired
     ProductCategoryService service;
 
-    @RequestMapping(value = "category",method = RequestMethod.GET)
-    public String category(Model model){
+    @RequestMapping(value = "category", method = RequestMethod.GET)
+    public String category(Model model) {
         List<Category> target = new ArrayList<>();
         List<Category> sources = service.select();
-        sortList(sources,target,0L);
-        model.addAttribute("categorys",target);
+        sortList(sources, target, 0L);
+        model.addAttribute("categorys", target);
         return "product_category";
     }
 
     private void sortList(List<Category> sources, List<Category> target, long parentId) {
         for (Category category : sources) {
-            if(category.getParent().getCategoryId().equals(parentId)){
+            if (category.getParent().getCategoryId().equals(parentId)) {
                 target.add(category);
-                if(category.getIsParent()){
+                if (category.getIsParent()) {
                     for (Category source : sources) {
-                        if(source.getParent().getCategoryId().equals(category.getCategoryId())){
-                            sortList(sources,target,category.getCategoryId());
+                        if (source.getParent().getCategoryId().equals(category.getCategoryId())) {
+                            sortList(sources, target, category.getCategoryId());
                             break;
                         }
                     }

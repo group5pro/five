@@ -8,14 +8,14 @@
     <!-- MAIN CONTENT -->
     <div class="main-content">
         <%--<c:if test="${baseResult.status==200}">--%>
-            <%--<div class="row">--%>
-                <%--<div class="box-body">--%>
-                    <%--<div class="alert alert-${baseResult.status==200?"success":"danger"} alert-dismissible">--%>
-                        <%--<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>--%>
-                            <%--${baseResult.message}--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
+        <%--<div class="row">--%>
+        <%--<div class="box-body">--%>
+        <%--<div class="alert alert-${baseResult.status==200?"success":"danger"} alert-dismissible">--%>
+        <%--<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>--%>
+        <%--${baseResult.message}--%>
+        <%--</div>--%>
+        <%--</div>--%>
+        <%--</div>--%>
         <%--</c:if>--%>
 
 
@@ -31,7 +31,8 @@
                         <div class="col-sm-12" style="padding-left: 25px">
                             <a href="/content/category/form" type="button" class="btn btn-sm btn-default"><i
                                     class="fa fa-plus"></i> 新增</a>&nbsp;&nbsp;
-                            <a type="button" onclick="deleteItem()" class="btn btn-sm btn-default"><i class="fa fa-trash"></i> 删除</a>&nbsp;&nbsp;
+                            <a type="button" onclick="deleteItem()" class="btn btn-sm btn-default"><i
+                                    class="fa fa-trash"></i> 删除</a>&nbsp;&nbsp;
                             <a type="button" class="btn btn-sm btn-default"><i class="fa fa-download"></i> 导入</a>&nbsp;&nbsp;
                             <a type="button" class="btn btn-sm btn-default"><i class="fa fa-upload"></i> 导出</a>
                         </div>
@@ -52,9 +53,13 @@
                                     <td>${categorys.categoryId}</td>
                                     <td>${categorys.categoryName}</td>
                                     <td>
-                                        <a href="/content/category/form?id=${categorys.categoryId}" type="button" href="#" class="btn btn-sm btn-default">编辑</a>
-                                        <button onclick="App.deletecategory(${categorys.categoryId})" type="button" class="btn btn-sm btn-default">删除</button>
-                                        <a href="/content/category/form?parent.id=${categorys.categoryId}&parent.name=${categorys.categoryName}" type="button" class="btn btn-sm btn-default">新建一下级分类</a>
+                                        <a href="/content/category/form?id=${categorys.categoryId}" type="button"
+                                           href="#" class="btn btn-sm btn-default">编辑</a>
+                                        <button onclick="App.deletecategory(${categorys.categoryId})" type="button"
+                                                class="btn btn-sm btn-default">删除
+                                        </button>
+                                        <a href="/content/category/form?parent.id=${categorys.categoryId}&parent.name=${categorys.categoryName}"
+                                           type="button" class="btn btn-sm btn-default">新建一下级分类</a>
                                     </td>
                                 </tr>
                             </c:forEach>
@@ -68,33 +73,33 @@
         </div>
         <!-- /.row (main row) -->
 
-    <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
-    <div class="control-sidebar-bg"></div>
+        <!-- Add the sidebar's background. This div must be placed
+             immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
 
-<!-- ./wrapper -->
-<!--modal-->
-<div class="modal fade" id="modal-default">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">友情提醒</h4>
+        <!-- ./wrapper -->
+        <!--modal-->
+        <div class="modal fade" id="modal-default">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">友情提醒</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p id="model-message"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">关闭</button>
+                        <button type="button" onclick="btnModalClick()" class="btn btn-primary">确定</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
             </div>
-            <div class="modal-body">
-                <p id="model-message"></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">关闭</button>
-                <button type="button" onclick="btnModalClick()" class="btn btn-primary">确定</button>
-            </div>
+            <!-- /.modal-dialog -->
         </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!--/.modal-->
+        <!--/.modal-->
     </div>
 </div>
 <jsp:include page="../include/jsfooter.jsp"></jsp:include>
@@ -166,13 +171,12 @@
     }
 
 
-
-    function showDetail(id){
+    function showDetail(id) {
         $.ajax({
-            "url":"/user/detail?id="+id,
-            "type":"GET",
-            "dataType":"HTML",
-            "success":function(data){
+            "url": "/user/detail?id=" + id,
+            "type": "GET",
+            "dataType": "HTML",
+            "success": function (data) {
                 $("#modal-user-detail").html(data);
                 $("#modal-user").modal("show");
             }
@@ -184,8 +188,8 @@
 
 
     var option = {
-        expandLevel : 2,
-        column:1
+        expandLevel: 2,
+        column: 1
     };
     $('#treeTable').treeTable(option);
 

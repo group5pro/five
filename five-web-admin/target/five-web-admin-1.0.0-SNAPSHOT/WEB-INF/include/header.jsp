@@ -17,7 +17,8 @@
 
     <!-- DataTables -->
     <link rel="stylesheet" href="/static/assets/plugins/datatables.net-bs/css/dataTables.bootstrap.min.css">
-
+    <!--treeTable-->
+    <link rel="stylesheet" href="/static/assets/plugins/treeTable/themes/vsStyle/treeTable.css"/>
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="/static/assets/css/main.css">
     <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->

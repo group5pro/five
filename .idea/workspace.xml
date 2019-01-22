@@ -7,271 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c93fdb-894d-4292-8e31-fb3b057ef46c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/img/logo11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net-bs/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/treeTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/allbgs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/allbgs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/treeTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/default/treeTable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/allbgs.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/treeTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/js/datetime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/TbUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/IndexController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/five.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/mapper/tbusermapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/spring-context-druid.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/spring-context-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/five.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mapper/tbusermapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context-druid.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/demo.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/css/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/login-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/logo-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/profile-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user-medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/img/user5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/scripts/klorofil-common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/css/chartist-custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/css/chartist-custom.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/css/chartist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/css/chartist.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/js/chartist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/js/chartist.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/map/chartist.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/map/chartist.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/chartist/scss/chartist.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery-slimscroll/jquery.slimscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/angular.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/angular.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/fonts/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/fonts/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/fonts/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/fonts/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/fonts/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/linearicons/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/toastr/toastr.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/toastr/toastr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/toastr/toastr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/static/assets/vendor/toastr/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/five-web-admin/target/five-web-admin-1.0.0-SNAPSHOT/WEB-INF/views/user_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -291,11 +48,12 @@
     <session id="1371683246">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -303,16 +61,16 @@
           <entry key="class" value="8" />
           <entry key="css" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="74" />
+          <entry key="java" value="95" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="6" />
-          <entry key="jsp" value="36" />
+          <entry key="js" value="7" />
+          <entry key="jsp" value="43" />
           <entry key="png" value="13" />
           <entry key="properties" value="9" />
           <entry key="rnc" value="2" />
           <entry key="ts" value="1" />
           <entry key="xhtml" value="1" />
-          <entry key="xml" value="42" />
+          <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -320,34 +78,34 @@
           <entry key="CLASS" value="8" />
           <entry key="CSS" value="2" />
           <entry key="Image" value="14" />
-          <entry key="JAVA" value="74" />
-          <entry key="JSP" value="36" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JAVA" value="95" />
+          <entry key="JSP" value="43" />
+          <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="9" />
           <entry key="RNG Compact" value="2" />
           <entry key="TypeScript" value="1" />
           <entry key="XHTML" value="1" />
-          <entry key="XML" value="40" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1394" />
+          <entry key="java" value="1434" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="986" />
+          <entry key="jsp" value="1117" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="771" />
+          <entry key="xml" value="773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1394" />
-          <entry key="JSP" value="986" />
+          <entry key="JAVA" value="1434" />
+          <entry key="JSP" value="1117" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="2" />
-          <entry key="SQL" value="29" />
+          <entry key="SQL" value="31" />
           <entry key="XML" value="734" />
         </counts>
       </usages-collector>
@@ -356,22 +114,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="33">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -380,61 +126,119 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+            <state relative-caret-position="247">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="209">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="318">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#2891#2892#0" expanded="true" />
+                <element signature="e#2927#2928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -457,8 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/five-web-api/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-context-mybatis.xml" />
         <option value="$PROJECT_DIR$/five-web-api/src/main/resources/spring-mvc.xml" />
@@ -472,42 +274,44 @@
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/admin/TbUser.java" />
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/TbUsers.java" />
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/TbUser.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/logout.xhtml" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsp.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/logout.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductService.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Product.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/five.properties" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/app/app.js" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryService.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/entity/Category.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml" />
         <option value="$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Category.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductCategoryService.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java" />
-        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/TbArtcleCollect.java" />
+        <option value="$PROJECT_DIR$/../xingke/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbArtcleCollect.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp" />
         <option value="$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -696,56 +500,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-              <item name="five-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="treeTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-              <item name="five-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="treeTable" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-              <item name="five-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="treeTable" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vsStyle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-              <item name="five-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -809,8 +563,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548083929967" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548141259212" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xingke" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -819,22 +573,22 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\img" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.group5.five.web.admin.dao" />
       <recent name="com.group5.five.web.admin.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\js" />
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\java\com\group5\five\web\admin\utils" />
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\plugins" />
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets" />
+      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\WEB-INF\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.group5.five.web.domain.entity" />
       <recent name="com.group5.five.web.admin.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\plugins" />
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets" />
-      <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\WEB-INF\views" />
-      <recent name="D:\Git本地仓库\five\five-domain\src\main\java\com\group5\five\web\domain\entity" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git本地仓库\five\five-web-admin\src\main\webapp\static\assets\img" />
     </key>
   </component>
@@ -852,7 +606,7 @@
   </component>
   <component name="RunManager">
     <configuration name="five-web-admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
       <deployment>
         <artifact name="five-web-admin:war exploded">
           <settings>
@@ -862,6 +616,8 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_five_2" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -973,11 +729,12 @@
       <workItem from="1548033052638" duration="3536000" />
       <workItem from="1548037560658" duration="149000" />
       <workItem from="1548037802665" duration="35879000" />
+      <workItem from="1548119596228" duration="7111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44613000" />
+    <option name="totallyTimeSpent" value="51724000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -992,7 +749,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1004,7 +761,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.036124796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18555008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" />
@@ -1038,81 +795,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-domain/src/main/java/com/group5/five/web/domain/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1254">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/iCheck/flat/red.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/datatables.net/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9400" column="4" selection-start-line="9400" selection-start-column="4" selection-end-line="9400" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/spring-context-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1161,57 +844,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/entity/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryService.java" />
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/entity/Category.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.17.RELEASE/spring-webmvc-4.3.17.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -1254,21 +888,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="65" />
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="194">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java">
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -1278,12 +938,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xingke/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbArtcle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xingke/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbStrategyComment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xingke/xing-ke-domain/src/main/java/com/group5/xing/ke/domain/TbArtcleCollect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/TbUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/tbusermapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/js/datetime.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#832#839#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/jsfooter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/utils/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1300,20 +1078,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/TbUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="209">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/TbUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="318">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="88" column="46" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#2891#2892#0" expanded="true" />
+            <element signature="e#2927#2928#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1324,107 +1118,42 @@
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/demo/style/demo.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/static/assets/plugins/treeTable/jquery.treeTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productcategorymapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductCategoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/dao/ProductCategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/ProductCategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="33">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/five.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-ui/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/resources/mapper/productmapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/Controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/views/product_category.jsp">
+    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/java/com/group5/five/web/admin/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/five-web-admin/src/main/webapp/WEB-INF/include/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
