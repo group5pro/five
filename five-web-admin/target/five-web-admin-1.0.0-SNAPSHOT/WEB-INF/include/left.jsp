@@ -21,7 +21,7 @@
                         <ul class="nav">
                             <li><a href="/product/list" class="">商品列表</a></li>
                             <li><a href="/product/category" class="">商品分类</a></li>
-                            <li><a href="/product/insert" class="">新增商品</a></li>
+                            <li><a href="/product/form" class="">新增商品</a></li>
                         </ul>
                     </div>
                 </li>

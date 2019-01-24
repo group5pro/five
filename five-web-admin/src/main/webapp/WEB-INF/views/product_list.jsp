@@ -136,8 +136,8 @@
         {"data": "salesNum"},
         {
             "data": function (row, type, val, meta) {
-                return '<a href="/content/detail?id=' + row.id + '" type="button" class="btn btn-sm btn-default">查看</a>' +
-                    '<a type="button" href="/content/form?id=' + row.id + '" class="btn btn-sm btn-default">编辑</a>' +
+                return '<a href="/product/detail?id=' + row.id + '" type="button" class="btn btn-sm btn-default">查看</a>' +
+                    '<a type="button" href="/product/form?id=' + row.id + '" class="btn btn-sm btn-default">编辑</a>' +
                     '<a type="button" class="btn btn-sm btn-default">删除</a>'
             }
         }

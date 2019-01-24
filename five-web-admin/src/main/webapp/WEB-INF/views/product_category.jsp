@@ -104,8 +104,9 @@
 </div>
 <jsp:include page="../include/jsfooter.jsp"></jsp:include>
 <script src="/static/assets/plugins/treeTable/jquery.treeTable.js"></script>
-</body>
 <script>
+
+
     function icheckfun() {
         //iCheck for checkbox and radio inputs
         $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
@@ -171,12 +172,13 @@
     }
 
 
-    function showDetail(id) {
+
+    function showDetail(id){
         $.ajax({
-            "url": "/user/detail?id=" + id,
-            "type": "GET",
-            "dataType": "HTML",
-            "success": function (data) {
+            "url":"/user/detail?id="+id,
+            "type":"GET",
+            "dataType":"HTML",
+            "success":function(data){
                 $("#modal-user-detail").html(data);
                 $("#modal-user").modal("show");
             }
@@ -188,13 +190,13 @@
 
 
     var option = {
-        expandLevel: 2,
-        column: 1
+        expandLevel : 2,
+        column:1
     };
     $('#treeTable').treeTable(option);
 
 
 </script>
 
+</body>
 </html>
-

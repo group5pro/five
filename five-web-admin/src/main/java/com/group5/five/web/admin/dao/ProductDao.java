@@ -12,4 +12,12 @@ public interface ProductDao {
     int count(Product product);
 
     List<Product> selectByPage(Map<String, Object> map);
+
+    void insertProduct(Product product);
+
+    void updateProduct(Product product);
+
+    void deleteProduct(String[] ids_arr);
+
+    Product selectById(Long productId);
 }

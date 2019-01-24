@@ -121,7 +121,7 @@
                 
                 //给这个tr增加类为了提高选择器的效率
                 $(this).addClass(pId);
-            }).find('[com.duo.my.shop.web.ui.controller]').css('cursor', 'pointer');
+            }).find('[controller]').css('cursor', 'pointer');
 
             //标识父节点是否有孩子、是否最后一个节点
             $trs.each(function (i) {
